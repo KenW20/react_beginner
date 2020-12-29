@@ -7,8 +7,8 @@ function AppLearn() {
   const [isRed, setRed] = useState(false);
   const [count, setCount] = useState(0);
   const [users, setUsers] = useState([
-    { name: 'Ed', message: "Hello there" },
-    { name: 'Snow', message: "Awesome" },
+    { name: 'Robert', message: "Hello there" },
+    { name: 'Ricky', message: "Awesome" },
   ]);
 
   const increment = () => {
